@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './Components/App/App';
+import Aula from './Components/Aula/Aula'
 import reportWebVitals from './reportWebVitals';
+import Bem_Vindo from './Components/Bem_vindo/Bem_Vindo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Aula />
+    <Bem_Vindo />
   </React.StrictMode>
 );
 
